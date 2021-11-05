@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to design patterns 👋</h1>
+<h1 align="center">Welcome to Singleton Design Pattern 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/thiagoolsilva/design_patterns#readme" target="_blank">
@@ -15,20 +15,32 @@
   </a>
 </p>
 
-> In order to help developers to get information about the implementation of some design pattern this repository will show up the code implementation separated by programming language. Enjoin, Learn and share! 
+> In software engineering, the singleton pattern is a software design pattern that restricts the instantiation of a class to one "single" instance. This is useful when exactly one object is needed to coordinate actions across the system. [wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
 
 ### 🏠 [Homepage](https://github.com/thiagoolsilva/design_patterns#readme)
 
-# Looking for Creating Design pattern?
+## When to use Singleton Design Pattern?
 
-## Singleton 
-The singleton pattern is a software design pattern that restricts the instantiation of a class to one "single" instance ([Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)).
+- There needs to be only one instance of a class and that instance has to give access to clients through a well-known point. (GOF,GAMMA 2008)
+- The only instance has to be extensible through subclasses enabling customers to use an extended instance without changing its code. (GOF,GAMMA 2008)
 
-[Documentation](creational_pattern/singleton/README.md)
+## Consequence:
 
-### Code implementation
+- Controlled access to single instance. Because the singleton class encapsulates its single instance, you have full control over what it's like when clients access it. (GOF,GAMMA 2008)
+- Allows a variable number of instances. The pattern makes it easy to change your mind by allowing more than one instance of the Singleton class. Also, you can use the same approach to control the number of instances the application uses. Only the operation that allows access to the Singleton instance needs to be changed. (GOF,GAMMA 2008)
 
-- [Typescript ](creational_pattern/typescript/packages/singleton/src)
+## Diagram Class
+
+![](uml/diagram-class/singleton-diagram-class.png)
+
+## Sequence Diagram
+
+![](uml/sequence-diagram/singleton-sequence-diagram.png)
+
+##  Links and Books
+
+- [Design Pattern - GOF](https://www.amazon.com.br/Padr%C3%B5es-Projetos-Solu%C3%A7%C3%B5es-Reutiliz%C3%A1veis-Orientados/dp/8573076100/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=17RQ9BFQP9EBV&keywords=padr%C3%B5es+de+projeto&qid=1636077027&s=books&sprefix=padr%C3%B5es+de+proje%2Cstripbooks%2C260&sr=1-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74)
+- [Singleton Wikipedia](https://pt.wikipedia.org/wiki/Singleton)
 
 ## Author
 

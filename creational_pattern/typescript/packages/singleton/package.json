@@ -1,0 +1,25 @@
+{
+  "name": "singleton",
+  "description": "singleton design pattern.",
+  "version": "1.0.0",
+  "main": "dist/client.js",
+  "license": "Apache V2",
+  "author": "Thiago Lopes da Silva <thiagoolsilva@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/thiagoolsilva/design_patterns/issues"
+  },
+  "homepage": "https://github.com/thiagoolsilva/design_patterns#readme",
+  "scripts": {
+    "lint:fix": "./node_modules/.bin/eslint --fix --ext .ts .",
+    "lint": "./node_modules/.bin/eslint --quiet --ext .ts .",
+    "build": "./node_modules/.bin/tsc ",
+    "clean": "./node_modules/.bin/rimraf dist node_modules"
+  },
+  "dependencies": {
+    "eslint": "8.1.0",
+    "eslint-plugin-sort-imports-es6-autofix": "0.6.0",
+    "rimraf": "3.0.2",
+    "ts-md5": "^1.2.9",
+    "typescript": "4.4.4"
+  }
+}
