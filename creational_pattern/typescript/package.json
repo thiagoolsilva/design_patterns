@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "name": "typescript",
+  "main": "index.js",
+  "license": "Apache V2",
+  "scripts": {
+    "projects:bootstrap": "./node_modules/.bin/lerna bootstrap",
+    "projects:build": "./node_modules/.bin/lerna run build --parallel",
+    "projects:clean": "./node_modules/.bin/lerna run clean --parallel",
+    "projects:lint": "./node_modules/.bin/lerna run lint --parallel",
+    "projects:lint:fix": "./node_modules/.bin/lerna run lint:fix --parallel"
+  },
+  "dependencies": {
+    "lerna": "4.0.0",
+    "typescript": "4.4.3"
+  },
+  "devDependencies": {
+    "eslint": "8.1.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-sort-imports-es6-autofix": "0.6.0",
+    "@typescript-eslint/eslint-plugin": "5.2.0",
+    "@typescript-eslint/parser": "5.2.0"
+  }
+}
