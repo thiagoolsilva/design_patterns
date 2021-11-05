@@ -30,6 +30,7 @@ The singleton pattern is a software design pattern that restricts the instantiat
 
 - [Typescript ](creational_pattern/singleton/typescript/packages/singleton/src)
 - [Java](creational_pattern/singleton/java/singleton/src/singleton)
+- [Kotlin](creational_pattern/singleton/kotlin/src)
 
 ## Author
 
