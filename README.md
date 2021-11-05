@@ -8,7 +8,7 @@
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
   <a href="https://github.com/thiagoolsilva/design_patterns/blob/master/LICENSE" target="_blank">
-    <img alt="License: APACHE--V2" src="https://img.shields.io/github/license/thiagoolsilva/tiktaktoe" />
+    <img alt="License: APACHE-V2" src="https://img.shields.io/github/license/thiagoolsilva/tiktaktoe" />
   </a>
   <a href="https://twitter.com/thiagoolsilva" target="_blank">
     <img alt="Twitter: thiagoolsilva" src="https://img.shields.io/twitter/follow/thiagoolsilva.svg?style=social" />
@@ -28,7 +28,8 @@ The singleton pattern is a software design pattern that restricts the instantiat
 
 ### Code implementation
 
-- [Typescript ](creational_pattern/typescript/packages/singleton/src)
+- [Typescript ](creational_pattern/singleton/typescript/packages/singleton/src)
+- [Java](creational_pattern/singleton/java/singleton/src/singleton)
 
 ## Author
 

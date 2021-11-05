@@ -8,7 +8,7 @@
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
   <a href="https://github.com/thiagoolsilva/design_patterns/blob/master/LICENSE" target="_blank">
-    <img alt="License: APACHE--V2" src="https://img.shields.io/github/license/thiagoolsilva/design_patterns" />
+    <img alt="License: APACHE-V2" src="https://img.shields.io/github/license/thiagoolsilva/tiktaktoe" />
   </a>
   <a href="https://twitter.com/thiagoolsilva" target="_blank">
     <img alt="Twitter: thiagoolsilva" src="https://img.shields.io/twitter/follow/thiagoolsilva.svg?style=social" />
