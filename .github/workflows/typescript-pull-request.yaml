@@ -1,0 +1,23 @@
+name: CI
+
+on: [pull_request]
+
+jobs:
+  build:
+    name: Run typescript pipeline
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install all dependencies in creating pattern
+        uses: borales/actions-yarn@v2.3.0
+        working-directory: ./creational_pattern/typescript
+        with:
+          cmd: install
+
+      - name: Run eslint
+        working-directory: ./creational_pattern/typescript
+        uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: projects:lint
