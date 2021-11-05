@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "name": "design-pattern-examples",
+  "description": "This repository was created to help developers to get examples of design patterns implementation. So, take your time to learn, share, Enjoin and code together.",
+  "license": "Apache V2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagoolsilva/design_patterns.git"
+  },
+  "author": "Thiago Lopes da Silva <thiagoolsilva@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/thiagoolsilva/design_patterns/issues"
+  },
+  "homepage": "https://github.com/thiagoolsilva/design_patterns#readme",
+}
