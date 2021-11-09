@@ -19,12 +19,22 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Install all dependencies
+      - name: Install all dependencies for Singleton design pattern
         uses: borales/actions-yarn@v2.3.0
         with:
           cmd: --cwd creational_pattern/singleton/typescript install
 
-      - name: Run eslint
+      - name: Run eslint for Singleton design pattern
         uses: borales/actions-yarn@v2.3.0
         with:
           cmd: --cwd creational_pattern/singleton/typescript projects:lint
+
+      - name: Install all dependencies for Factory Method design pattern
+        uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: --cwd creational_pattern/factory-method/typescript install
+
+      - name: Run eslint for Factory Method design pattern
+        uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: --cwd creational_pattern/factory-method/typescript lint

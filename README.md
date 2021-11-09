@@ -32,6 +32,17 @@ The singleton pattern is a software design pattern that restricts the instantiat
 - [Java](creational_pattern/singleton/java/singleton/src/singleton)
 - [Kotlin](creational_pattern/singleton/kotlin/src)
 
+## Factory Method 
+In class-based programming, the factory method pattern is a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created. This is done by creating objects by calling a factory method—either specified in an interface and implemented by child classes, or implemented in a base class and optionally overridden by derived classes—rather than by calling a constructor. ([Wikipedia](https://en.wikipedia.org/wiki/Factory_method_pattern)).
+
+[Documentation](creational_pattern/factory-method/README.md)
+
+### Code implementation
+
+- [Typescript ](creational_pattern/factory-method/typescript/src)
+- [Java](creational_pattern/factory-method/java/src)
+- [Kotlin](creational_pattern/factory-method/kotlin/src)
+
 ## Author
 
 👤 **Thiago Lopes da Silva <thiagoolsilva@gmail.com>**
