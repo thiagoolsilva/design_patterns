@@ -1,0 +1,26 @@
+{
+  "name": "prototype",
+  "main": "dist/src/client.js",
+  "types": "dist/src/client",
+  "license": "Apache V2",
+  "scripts": {
+    "lint:fix": "./node_modules/.bin/eslint --fix --ext .ts .",
+    "lint": "./node_modules/.bin/eslint --quiet --ext .ts .",
+    "build": "./node_modules/.bin/tsc ",
+    "clean": "./node_modules/.bin/rimraf dist node_modules"
+  },
+  "dependencies": {
+    "typescript": "4.4.3",
+    "eslint": "8.1.0",
+    "eslint-plugin-sort-imports-es6-autofix": "0.6.0",
+    "rimraf": "3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.1.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-sort-imports-es6-autofix": "0.6.0",
+    "@typescript-eslint/eslint-plugin": "5.2.0",
+    "@typescript-eslint/parser": "5.2.0"
+  }
+}
